@@ -7,6 +7,19 @@ p #757575;
 Corner Radius: 4px
 
 цвет при наведении на карточку rgba(33, 150, 243, 0.9) */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 :root {
   --primary-text-color: #757575;
