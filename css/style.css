@@ -105,22 +105,21 @@ a {
 }
 
 .site-nav:visited,
-.site-nav.current:visited {
+.current:visited {
   color: var(--title-text-color);
-}
+} 
+
 .site-nav:hover,
 .site-nav:focus {
   color: var(--accent-color);
 }
-
+a.site-nav.current,
 .site-nav.contact:hover,
 .site-nav.contact:focus {
 color: var(--accent-color);
 }
 
-a.site-nav.current {
-  color: var(--accent-color);
-}
+
 
 /* Title */
 
