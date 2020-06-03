@@ -92,32 +92,33 @@ a {
   color: var(--secondary-text-color);
 }
 
-.nav.link {
+.site-nav {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
 
-a.nav.link.contact {
+.site-nav.contact {
   color: var(--primary-text-color);
 
   font-weight: 500;
   letter-spacing: 0.02em;
 }
 
-.nav.link:visited {
+.site-nav:visited,
+.site-nav.current:visited {
   color: var(--title-text-color);
 }
-.nav.link:hover,
-.nav.link:focus {
+.site-nav:hover,
+.site-nav:focus {
   color: var(--accent-color);
 }
 
-a.nav.link.contact:hover,
-a.nav.link.contact:focus {
+.site-nav.contact:hover,
+.site-nav.contact:focus {
 color: var(--accent-color);
 }
 
-.nav.link.current {
+a.site-nav.current {
   color: var(--accent-color);
 }
 
